@@ -1,0 +1,72 @@
+html{
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: lightyellow;
+}
+body {
+background-color: white;
+
+}
+h1 {
+font-family: arial;
+font-size: 100px;
+color: black;
+text-align: center;
+background-color: yellow;
+padding: 75px;
+}
+h2{font-family: arial;}
+h3{font-family: arial;}
+
+header {
+font-family: arial;
+font-size: 25px;
+color: black;
+text-align: left;
+
+}
+p{
+text-indent: 2.5%;
+font-family: arial;
+color: black;
+text-align: left;
+padding-left: 50px;
+padding-right: 50px;
+
+}
+nav {
+text-align: center;
+background-color: yellow;
+margin-right: 600px;
+margin-left: 600px;
+}
+nav a:after {
+  content: "";
+  display: grid;
+  height: 30px;
+  width: 1px;
+
+}
+p{
+-webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+.flex-container {
+  display: flex;
+  background-color: white;
+  align-content: center;
+}
+
+.flex-container > a {
+  background-color: yellow;
+  width: 300px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+}
+a {
+  border: 3px solid white;
+}
